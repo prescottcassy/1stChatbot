@@ -33,8 +33,6 @@ node server.js
 
 ## 🗂️ Project Structure
 
-## 🗂️ Project Structure
-
 - **chatbot-project/**  
   - **archive/** — Training data, if applicable  
     - `dialogs.txt` — Dataset 1  
