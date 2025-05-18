@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot UI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="chat-container">
+        <h2>Chatbot Assistant</h2>
+        <div id="chat-box"></div>
+
+        <!-- Typing Indicator -->
+        <div id="typing-indicator" class="hidden">🤖 Bot is thinking...</div>
+	<div class="input-area">
+   		 <button onclick="startVoiceRecognition()">🎤 Speak</button>
+   		 <input type="text" id="user-input" placeholder="Type a message..." onkeypress="handleKeyPress(event)">
+   		 <button onclick="sendMessage()">Send</button>
+	</div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
