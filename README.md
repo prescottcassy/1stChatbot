@@ -38,8 +38,8 @@ node server.js
     - `dialogs.txt` — Dataset 1  
     - `label_texts.txt` — Dataset 2  
     - `input_texts.txt` — Dataset 3  
-  - `chatbot.env` — Environment variables  
-  - `__pycache__/` — Python cache files  
+  - **/chatbot.env/** — Environment variables  
+  - **/__pycache__/** — Python cache files  
   - **static/** — Static assets (images, icons)  
   - **templates/**  
     - `index.html` — Main application structure file  
