@@ -1,10 +1,10 @@
-Chatbot Project
+# Chatbot Project
 
 📦 Project Overview
 
-This project is a simple chatbot designed to handle basic interactions and provide automated responses. It is structured to be easily extensible for more advanced features.
+## This project is a simple chatbot designed to handle basic interactions and provide automated responses. It is structured to be easily extensible for more advanced features.
 
-🚀 Features
+🚀 ### Features
 
 Basic chatbot logic
 
