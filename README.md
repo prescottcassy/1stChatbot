@@ -34,14 +34,14 @@ node server.js
 ## 🗂️ Project Structure
 
 - **chatbot-project/**  
-  - **archive/** — Training data, if applicable  
+  - **/archive/** — Training data, if applicable  
     - `dialogs.txt` — Dataset 1  
     - `label_texts.txt` — Dataset 2  
     - `input_texts.txt` — Dataset 3  
   - **/chatbot.env/** — Environment variables  
   - **/__pycache__/** — Python cache files  
-  - **static/** — Static assets (images, icons)  
-  - **templates/**  
+  - **/static/** — Static assets (images, icons)  
+  - **/templates/**  
     - `index.html` — Main application structure file  
   - `app.py` — Main application entry point  
   - `intents.json` — Predefined responses and intents  
